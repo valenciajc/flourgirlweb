@@ -95,3 +95,19 @@ footer {
   width: 350px;
   height: 350px;
 }
+h1 {
+    text-align: center;
+    /* margin-left: 300px; */
+    margin-top: 100px;
+}
+p{
+    text-align: center;
+    margin-bottom: 100px;
+}
+li{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: 100px;
+}
