@@ -22,7 +22,7 @@ if(isset($_POST['send'])){
     $mail->SMTPSecure = 'ssl';
     $mail->isHTML(true);
     $mail->setFrom($email, $name);
-    $mail->addAddress('jai.valencia.005@gmail.com');
+    $mail->addAddress('jr.samespino@gmail.com');
     $mail->Subject = ("$email ($subject)");
     $mail->Body = $message;
     $mail->send();
